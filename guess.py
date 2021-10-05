@@ -14,7 +14,7 @@ while True:
 	guess = int(guess)
 	if guess == num:
 		print('恭喜你猜對了!')
-		print('這是你猜的第', count, '次')
+		print('你總共猜了', count, '次')
 		break
 	elif guess > num and guess <= max:
 		print('猜錯囉!再猜小一點')
@@ -22,4 +22,4 @@ while True:
 		print('猜錯囉!再猜大一點')
 	else:
 		print('只能猜', min, '~', max)
-	print('這是你猜的第', count, '次')
+	print('你已經猜了', count, '次')
